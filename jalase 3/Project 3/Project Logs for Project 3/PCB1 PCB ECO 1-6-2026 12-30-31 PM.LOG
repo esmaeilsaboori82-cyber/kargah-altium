@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=Vout Pin=M?-3
+Removed Pin From Net: NetName=GND Pin=M?-4
+Added Component: Designator=M?(dc-dc-module)
+Added Pin To Net: NetName=GND Pin=M?-3
+Added Pin To Net: NetName=Vout Pin=M?-4

@@ -1,0 +1,48 @@
+Added Component: Designator=J-out(HDR_M_1X2)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "HDRM2"; VariantName = "[No Variations]"
+Added Component: Designator=J-V(HDR_M_1X3)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "HDRM3"; VariantName = "[No Variations]"
+Added Component: Designator=J?(JAC_PWR2)
+Add component (AddParameter): Name = "MANF"; Value = "CUI STACK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "PJ-202A, PJ-002AH, PJ-102AH, KLDX-0202"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "DC_POWER_JACK"; VariantName = "[No Variations]"
+Added Component: Designator=M?(dc-dc-module)
+Added Component: Designator=R?(R025W_AX04)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "KOA SPEER"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "RK73H1ETTP4701F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "0.063W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "1.5K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ-out_1 Pin=J-out-1
+Added Pin To Net: NetName=GND Pin=J-out-2
+Added Pin To Net: NetName=GND Pin=J-V-1
+Added Pin To Net: NetName=VCC Pin=J-V-2
+Added Pin To Net: NetName=Vout Pin=J-V-3
+Added Pin To Net: NetName=VCC Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-3
+Added Pin To Net: NetName=GND Pin=M?-3
+Added Pin To Net: NetName=Vout Pin=M?-4
+Added Pin To Net: NetName=NetJ-out_1 Pin=R?-1
+Added Pin To Net: NetName=Vout Pin=R?-2
+Added Member To Class: ClassName=Sheet1 Member=Component J-out HDRM2
+Added Member To Class: ClassName=Sheet1 Member=Component J-V HDRM3
+Added Member To Class: ClassName=Sheet1 Member=Component J? DC_POWER_JACK
+Added Member To Class: ClassName=Sheet1 Member=Component M? LM2596
+Added Member To Class: ClassName=Sheet1 Member=Component R? 1.5K

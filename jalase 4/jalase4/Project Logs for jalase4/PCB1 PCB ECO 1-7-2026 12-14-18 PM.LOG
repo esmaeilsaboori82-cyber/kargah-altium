@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=Net_2 Pin=Q1-1
+Removed Pin From Net: NetName=NetC2_1 Pin=Q1-2
+Removed Pin From Net: NetName=NetC4_2 Pin=Q1-3
+Removed Pin From Net: NetName=NetC2_2 Pin=Q2-1
+Removed Pin From Net: NetName=NetC6_1 Pin=Q2-2
+Removed Pin From Net: NetName=GND Pin=Q2-3
+Added Component: Designator=Q1(TO92_3)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "FAIRCHILD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "BC547"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "0.1A, Hfe110~800"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "45v, 500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "BC547"; VariantName = "[No Variations]"
+Added Component: Designator=Q2(TO92_3)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "FAIRCHILD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "BC547"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "0.1A, Hfe110~800"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "45v, 500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "BC547"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Net_2 Pin=Q1-1
+Added Pin To Net: NetName=NetC2_1 Pin=Q1-2
+Added Pin To Net: NetName=NetC4_2 Pin=Q1-3
+Added Pin To Net: NetName=NetC2_2 Pin=Q2-1
+Added Pin To Net: NetName=NetC6_1 Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=Q2-3

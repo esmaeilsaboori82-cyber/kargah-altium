@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=VCC Pin=-1
+Removed Pin From Net: NetName=Net_2 Pin=-2
+Removed Member From Class: ClassName=Sheet1 Member=
+Added Component: Designator=L1(LT_AX025)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DIST#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "0.1uH"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC Pin=L1-1
+Added Pin To Net: NetName=Net_2 Pin=L1-2
+Change Net Name : Old Net Name=Net_2 New Net Name=NetC1_1
+Added Member To Class: ClassName=Sheet1 Member=Component L1 0.1uH
+Added Member To Class: ClassName=Sheet1 Member=Component Q1 BC547
+Added Member To Class: ClassName=Sheet1 Member=Component Q2 BC547
